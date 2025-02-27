@@ -57,7 +57,7 @@ In the second byte of the usage, the bit marks what the following Collection is 
 report. If the device supports all sizes, there will be three Collections and the usages would be 0x0701 (short),
 0x0702 (long) and 0x0704 (very long.
 
-The first byte in the payload is the Report ID (17 or 0x11) of the long report. So the reports is 20 bytes long
+The first byte in the payload is the Report ID (17 or 0x11) of the long report. So the report is 20 bytes long
 and the 0x11 is followed by 19 more bytes.
 
 ### Device ID
@@ -84,8 +84,8 @@ will stay the same for all input and output reports.
 
 The third byte is the feature index. The HID++ protocol defines various features which are defined by a two
 byte Feature ID. 0x0000 is the root feature and it always has the Feature Index 0x00. Every further Feature
-Index needs to be looked up. That is the reason why a Litra Glow has a 0x04 and a Litra Beam LX a 0x06 there
-- it's the same Feature, but it has a different index in these devices.
+Index needs to be looked up. That is the reason why a Litra Glow has a 0x04 and a Litra Beam LX a 0x06 there - 
+it's the same Feature, but it has a different index in these devices.
 
 ### Functions
 
