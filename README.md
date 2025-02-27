@@ -1,5 +1,7 @@
 # Litra Testbed
 
+Have a Litra device? Try it [live](https://cajus.github.io/litra-testbed/) in your Chrome enabled browser.
+
 ![Overview](screenshot.png)
 
 In order to integrate a possibility to control my Logitech Litra from our video telephony software, I had to
