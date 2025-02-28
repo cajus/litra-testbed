@@ -210,5 +210,5 @@ Response FF FF 09 1C 06 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 ## Sample implementation using WebHID
 
-I've added a lazy sample implementation in raw JS. No fancy Type Script, SASS, whatever. Sorry! Feel free to
-make it more robust and pretty by forking or sending a pull request ;-)
+I've added a lazy sample implementation in raw JS. No fancy Type Script, SASS, whatever. Feel free to use
+the information and make pretty frontends with it. This repo is just used for research.
